@@ -1,0 +1,151 @@
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, 'Noto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    letter-spacing: 0.018em;
+    font-size: 14px;
+    list-style-type: none;
+  }
+
+  body {
+        background-color: #eeeeee;
+  }
+
+  div.wrapper {
+    display: block;
+    z-index: 0;
+  }
+
+  h2 {
+    display: block;
+    color: #1A237E;
+    font-size: 18px;
+    padding: 15px 0 15px 0;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 5% 0 5%;
+    box-sizing: border-box;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  /* NAVIGATION MENU */
+
+  div.nav-menu {
+    position: fixed;
+    padding-left: 0;
+    height: 75px;
+    background-color: #fff;
+    z-index: 100;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .logo-container {
+    float: left;
+    height: 75px;
+    width: 225px;
+    background-color: #1A237E;
+    z-index: 101;
+    line-height: 71px;
+    padding-left: 5%;
+  }
+
+  .logo-container p {
+    color: white;
+    font-size: 24px;
+    font-weight: 100;
+  }
+
+  .logo-container span {
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .nav-item {
+    float: right;
+    font-weight: 500;
+    color: #1A237E;
+    width: 150px;
+    height: 71px;
+    line-height: 71px;
+    text-align: center;
+  }
+
+  .nav-item:hover {
+    border-bottom: 4px solid #f44336;
+  }
+
+
+  /* FIRST SLIDE */
+
+  div.first {
+    height: 750px;
+    background-image: url(../images/bg-first.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 255px;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .first p {
+    font-size: 24px;
+    color: #1A237E;
+  }
+
+  /*ABOUT ME*/
+
+  div.about-me {
+    height: auto;
+    display: block;
+  }
+
+  div.about-header {
+    box-sizing: border-box;
+    border-bottom: 1px solid #eeeeee;
+    background-color: white;
+    width: 100%;
+    padding-left: 20px;
+  }
+
+  div.about-content {
+    padding: 20px;
+    background-color: #ffffff;
+  }
+
+  .about-me p {
+    line-height: 25px;
+  }
+  
+  .about-slide table {
+    width: 500px;
+    margin: 20px 0 20px 10px;
+    border-collapse: collapse;
+  }
+
+  .about-slide td {
+    padding: 10px 15px 10px 15px;  
+  }
+
+  .about-slide tr {
+    border-bottom: 1px solid #eeeeee;
+  }
+
+  .about-slide tr:last-child {
+    border-bottom: none;
+  }
+  .about-slide li {
+    box-sizing: border-box;
+    float: left;
+    width: 47.5%;
+    margin: 40px 0 40px 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .about-slide li:last-child {
+    margin-left: 5%;
+  }
